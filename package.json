@@ -1,6 +1,5 @@
 {
   "name": "contdtemp",
-  "homepage": "http://www.contdstudio.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
