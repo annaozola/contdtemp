@@ -1,2 +1,2 @@
 # contdtemp
-CONTD Studio temporary website
+Temporary website for CONTD Studio.
