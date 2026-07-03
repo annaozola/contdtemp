@@ -1,34 +1,23 @@
-import React from 'react'
-import './App.css'
-import Marquee from 'react-fast-marquee'
+import React from "react";
+import "./App.css";
+import Marquee from "react-fast-marquee";
 
 function App() {
-
   return (
-    <div className="App">
+    <div className="landing">
       <div className="container">
-        <div className="heading">
-          <h1>CONTD Studio</h1>
-        </div>
+        <h1>CONTD</h1>
         <div className="footer">
-          <Marquee
-            className="marquee"
-            play={true}
-            pauseOnHover={true}
-            direction={"rigt"}
-            speed={24}
-            loop={0}
-            gradient={false}
-          >
-            <p>This domain is reserved for a project that is still a work in progress. Approximate launch date - early 2025 or 2026.</p>
-            <p>This domain is reserved for a project that is still a work in progress. Approximate launch date - early 2025 or 2026.</p>
-            <p>This domain is reserved for a project that is still a work in progress. Approximate launch date - early 2025 or 2026.</p>
-            <p>This domain is reserved for a project that is still a work in progress. Approximate launch date - early 2025 or 2026.</p>
-          </Marquee>
+          <p>Studio</p>
+          <p>
+            By&nbsp;
+            <a href="https://annaozola.com/">Anna</a>
+          </p>
+          <p>TBD</p>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
